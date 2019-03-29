@@ -18,7 +18,15 @@ const menuList = [
             },
             {
                 title: 'Loading',
-                key: '/admin/ui/loading',
+                key: '/admin/ui/loadings',
+            },
+            {
+                title: 'Notification',
+                key: '/admin/ui/notification',
+            },
+            {
+                title: 'Message',
+                key: '/admin/ui/messages',
             },
             {
                 title: 'Tab标签',
