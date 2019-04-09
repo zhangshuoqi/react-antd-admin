@@ -7,7 +7,7 @@ export default class Axios{
             loading = document.getElementById('ajaxLoading')
             loading.style.display = 'block'
         }
-        let baseAPI = 'https://easy-mock.com/mock/5c9d7b02e2ebde02b5f8ab2f/mockapi'
+        let baseAPI = 'https://easy-mock.com/mock/5a7278e28d0c633b9c4adbd7/api'
         return new Promise((resolve,reject)=>{
             axios({
                 url:options.url,
